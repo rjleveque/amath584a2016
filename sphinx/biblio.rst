@@ -38,6 +38,15 @@ Linear algebra
    <http://epubs.siam.org/ebooks/siam/other_titles_in_applied_mathematics/ot77>`_,
    SIAM e-book, 2001.
 
+.. [Matousek] J. Matoušek, `Thirty-three Miniatures
+   <http://bookstore.ams.org/stml-53>`_
+   Mathematical and Algorithmic Applications of Linear Algebra,
+   American Mathematical Society, 2010.
+   Available on reserve at the Mathematics Research Library.
+   A `preliminary version pdf
+   <http://kam.mff.cuni.cz/~matousek/stml-53-matousek-1.pdf>`_ is also
+   available.
+
 Matlab
 ------
 
@@ -63,6 +72,7 @@ Python
 .. [Python] G. van Rossum, `An Introduction to Python,
    <http://www.network-theory.co.uk/docs/pytut/index.html>`_
 
+.. _biblio-latex:
 
 Latex
 -----

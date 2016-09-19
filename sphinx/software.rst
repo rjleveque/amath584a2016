@@ -9,6 +9,15 @@ Software for the course
 You can use either Matlab or Python.  The language R might also be
 possible but not recommended.
 
+If you don't know either Matlab or Python I suggest using Matlab, which
+was originally designed explcitly for doing numerical linear algebra and so
+the syntax is a bit easier, and it is more straightforward to install and
+use.  Also everyone should know some Matlab.
+
+If you like using Python, or know Matlab well already and are looking to
+expand your programming expertise, then you should consider learning
+to use the Python Numpy libraries for numerical computing.
+
 
 Matlab
 ------
@@ -50,6 +59,10 @@ If you install this, you can
 also then use the `conda package installer
 <http://conda.pydata.org/docs/install/quick.html>`_ to install various
 extensions easily.  
+**Note:** If you also use `pip install` on your computer be aware that
+installing different packages in different ways can lead to various
+incompatibilities.  You might want to consider creating a new 
+`conda environment <http://conda.pydata.org/docs/using/envs.html>`_.
 
 You should install Python 2.7 (not 3.x) to be compatible with what is used
 in the notebooks posted for this this class.
@@ -57,10 +70,15 @@ in the notebooks posted for this this class.
 Juptyer Notebooks
 -----------------
 
-Jupyter notebooks are a web-based notebook environment. They used to be called IPython notebooks, but proved to be useful for many languages other than Python and so the web interface was expanded as Jupyter.  
-See http://jupyter.org for more information and documentation. 
+Jupyter notebooks are a web-based notebook environment. They used
+to be called IPython notebooks, but proved to be useful for many
+languages other than Python and so the web interface was expanded
+as Jupyter.  See http://jupyter.org for more information and
+documentation.
 
-If you have a Matlab license then you can also write Matlab code in a Juptyer notebook.  Many examples used in this class will be presented in this manner.
+If you have a Matlab license then you can also write Matlab code
+in a Juptyer notebook.  Some examples used in this class will be
+presented in this manner.
 
 See :ref:`jupyter` for hints on using Matlab and Python in notebooks.
 
@@ -96,4 +114,22 @@ software whether you use Matlab or Python.
 
 For large scale computing projects you may want to call LAPACK routines
 directly from a Fortran or C code.  
+
+LaTeX
+-----
+
+For writing up homework, please use latex if possible.  Free distributions are
+available n-line for different operating systems and some include nice editing
+tools.  See the :ref:`biblio-latex` section of the bibliography
+for some references, but there are also many tutorials online.
+
+SageMathCloud includes a WYSIWYG latex editor so you can use latex there
+without any installation required.  See :ref:`smc`.
+
+You might also want to try `Overleaf <https://www.overleaf.com>`_ as another
+free web-based online latex writing and collaboration tool.
+
+Jupyter notebooks also allow putting latex in markdown cells to incorporate
+mathematics in the description.  Examples will be provided.
+
 

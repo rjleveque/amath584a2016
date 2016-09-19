@@ -14,9 +14,13 @@ Python is the default language if you start a new notebook.
 Using Matlab in notebooks
 -------------------------
 
+**Note:** This is all rather fragile as versions of Python and Matlab have
+changed recently, so I don't currently recommend trying this unless you're
+already comfortable with Matlab and Jupyter and looking for a new challenge.
+
 If you want to type Matlab code in a cell and execute that cell using Matlab,
 you can use `Pymatbridge <https://arokem.github.io/python-matlab-bridge/>`_ so
-that a cell that starts with the ``magic command'' `%%matlab` will be executed
+that a cell that starts with the "magic command" `%%matlab` will be executed
 in Matlab.
 
 If you install Pymatbridge and also the `Matlab kernel extension

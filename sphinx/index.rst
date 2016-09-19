@@ -10,6 +10,7 @@ AMath 584
    info
    syllabus
    homeworks
+   dropbox
    software
    software_installation
    jupyter
