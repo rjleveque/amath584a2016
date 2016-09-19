@@ -34,18 +34,18 @@ survey where you provide the email address used to create your
 Dropbox account.
 
 After completing this survey a Dropbox folder will be
-shared with you. This folder will be named `yournetid_amath584`.
+shared with you. This folder will be named `amath584_yournetid`.
 Where `yournetid` is replaced by your actual netid. 
 
 Turning in homework
 ------------------
 You will be expected to turn in the final version of
-your homework in the `yournetid_amath584` folder shared with you through Dropbox.
+your homework in the `amath584_yournetid` folder shared with you through Dropbox.
 
 Each homework should be given its own sub-folder with the
 same name as its respective homework sub-folder in the class repository.
 For example for homework 0 you should create a `hw0` directory in
-your `yournetid_amath584` folder. 
+your `amath584_yournetid` folder. 
 
 Assuming you have installed the Dropbox app
 and that you have followed the instructions on the :ref:`class_repos` 
@@ -53,7 +53,7 @@ page you can turn in `hw0` by executing the following commands::
 
     export DROPBOX=/full/path/to/Dropbox
     export MY584=/full/path/to/my584
-    cd $DROPBOX/yournetid_amath584
+    cd $DROPBOX/amath584_yournetid
     mkdir hw0
     cp $MY584/hw0/hw0.tex hw0/
     cp $MY584/hw0/hw0.pdf hw0/
@@ -65,7 +65,7 @@ Proper directory structure
 By the end of the 
 quarter you will have completed six homeworks so that if you run the command::
 
-    ls $DROPBOX/yournetid_amath584
+    ls $DROPBOX/amath584_yournetid
 
 you should get the output::
 
