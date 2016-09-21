@@ -80,7 +80,7 @@ If you have a Matlab license then you can also write Matlab code
 in a Juptyer notebook.  Some examples used in this class will be
 presented in this manner.
 
-See :ref:`jupyter` for hints on using Matlab and Python in notebooks.
+See :ref:`jupyter` for hints on using notebooks.
 
 The notebook platform is rapidly being improved but as a result how things
 behave often depend on what version you have installed.  If you installed

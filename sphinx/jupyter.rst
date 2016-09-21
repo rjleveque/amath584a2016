@@ -12,7 +12,13 @@ See the `Jupyter documentation
 and this `gallery of interesting notebooks
 <https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks>`_.
 
+Some notebooks developed for this class will be in the `notebooks` subdirectory
+of the :ref:`class_repos`.  You can view them online by clicking on a
+notebook from `this Github page
+<https://github.com/rjleveque/amath584a2016/blob/master/notebooks/>`_.
+
 Python is the default language if you start a new notebook.
+
 
 .. _pymatbridge:
 
