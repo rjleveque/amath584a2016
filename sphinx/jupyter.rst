@@ -7,6 +7,11 @@ Jupyter notebooks
 
 See :ref:`software` for information on installing Jupyter notebooks.
 
+See the `Jupyter documentation
+<http://jupyter-notebook.readthedocs.io/en/latest/>`_
+and this `gallery of interesting notebooks
+<https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks>`_.
+
 Python is the default language if you start a new notebook.
 
 .. _pymatbridge:

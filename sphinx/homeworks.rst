@@ -9,8 +9,8 @@ Homework and exams
 There will be 5 homework assignments during the quarter, requiring a
 combination of analytical and programming work.
 
-There is also a "Homework 0" to make sure you are set up with computing
-infrastructure and fill out some surveys.
+There is also an ungraded "Homework 0" to make sure you are set up
+with computing infrastructure and that you fill out some surveys.
 
 There will be in-class midterm and final exams.
 

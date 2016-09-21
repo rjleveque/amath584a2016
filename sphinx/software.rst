@@ -119,17 +119,23 @@ LaTeX
 -----
 
 For writing up homework, please use latex if possible.  Free distributions are
-available n-line for different operating systems and some include nice editing
+available on-line for different operating systems and some include nice editing
 tools.  See the :ref:`biblio-latex` section of the bibliography
 for some references, but there are also many tutorials online.
 
-SageMathCloud includes a WYSIWYG latex editor so you can use latex there
+SageMathCloud includes a latex editor so you can use latex there
 without any installation required.  See :ref:`smc`.
 
 You might also want to try `Overleaf <https://www.overleaf.com>`_ as another
 free web-based online latex writing and collaboration tool.
 
-Jupyter notebooks also allow putting latex in markdown cells to incorporate
-mathematics in the description.  Examples will be provided.
+For writing up computational results, you might want to explore the 
+`Matlab Publish
+<https://www.mathworks.com/help/matlab/matlab_prog/publishing-matlab-code.html>`_ 
+tools that allow you to include latex in Matlab comments that gets rendered
+along with your code and output.
+
+:ref:`jupyter` also allow putting latex in markdown cells to incorporate
+mathematics in the description.
 
 

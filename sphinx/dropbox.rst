@@ -29,13 +29,13 @@ many find the app to be more convenient.
 Class Dropbox folder
 ------------------------
 
-As part of homework 0 you will be expected to fill out an online
+As part of :ref:`homework0` you will be expected to fill out an online
 survey where you provide the email address used to create your
 Dropbox account.
 
 After completing this survey a Dropbox folder will be
 shared with you. This folder will be named `amath584_yournetid`.
-Where `yournetid` is replaced by your actual netid. 
+Where `yournetid` is replaced by your netid. 
 
 Turning in homework
 ------------------
@@ -49,10 +49,11 @@ your `amath584_yournetid` folder.
 
 Assuming you have installed the Dropbox app
 and that you have followed the instructions on the :ref:`class_repos` 
-page you can turn in `hw0` by executing the following commands::
+page you can turn in `hw0` by executing the following commands (modify them
+to put in the correct paths to the directories)::
 
-    export DROPBOX=/full/path/to/Dropbox
-    export MY584=/full/path/to/my584
+    export DROPBOX=/full/path/to/Dropbox   # environment variable used below
+    export MY584=/full/path/to/my584       # you might have done this already
     cd $DROPBOX/amath584_yournetid
     mkdir hw0
     cp $MY584/hw0/hw0.tex hw0/

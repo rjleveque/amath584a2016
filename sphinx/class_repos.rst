@@ -76,11 +76,11 @@ create another directory for doing your own work, e.g. ::
 
 Then copy any files you need to this directory before working with them, e.g. ::
 
-    cp -r $AM584/homeworks/hw1  $MY584/
+    cp -r $AM584/homeworks/hw0  $MY584/
 
-will recursively copy the directory `hw1`.
+will recursively copy the directory `hw0` to create a new directory `$MY584/hw0`.
 
-Then modify the files in the new `hw1` directory.
+Then modify the files in the new `hw0` directory.
 
 
 Other git references
