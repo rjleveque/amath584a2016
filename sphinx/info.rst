@@ -28,10 +28,20 @@ Lectures
 
 * MWF 2:30 - 3:20 pm in Loew 216
 
+Canvas Page
+-----------
+
+Registered students should 
+have access to the `Canvas course page
+<https://canvas.uw.edu/courses/1062881>`_, where you will find links to videos
+of lectures, the discussion board, and additional information
+about homeworks and exams.
+
 Assignments
 -----------
 
 See :ref:`homeworks` for more information and due dates.
+
 
 Course Description
 ------------------
