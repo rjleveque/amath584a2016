@@ -24,5 +24,5 @@ Dates (tentative)
 * In-class Midterm: Nov. 16  
 * Homework 4: due Nov. 22
 * Homework 5: due Dec. 6
-* In-class Final: Dec. 13
+* In-class Final: Dec. 13, 2:30 - 4:20pm
 
