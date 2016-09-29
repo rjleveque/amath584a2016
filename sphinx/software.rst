@@ -34,6 +34,11 @@ also available via their `terminal server
 is available for as little as $49.  This is worth buying if you
 think you will use Matlab regularly.
 
+Some useful Matlab scripts and demos will be available in the `Matlab` subdirectory
+of the :ref:`class_repos`. For demos that use Matlab publish please see the following link
+`Matlab Publish
+<https://www.mathworks.com/help/matlab/matlab_prog/publishing-matlab-code.html>`_.
+
 Python
 ------
 
