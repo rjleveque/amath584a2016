@@ -18,7 +18,7 @@ Dates (tentative)
 ---------------------
 
 * :ref:`homework0`: due Oct. 4
-* Homework 1: due Oct. 11
+* :ref:`homework1`: due Oct. 11
 * Homework 2: due Oct. 25
 * Homework 3: due Nov. 8
 * In-class Midterm: Nov. 16  
