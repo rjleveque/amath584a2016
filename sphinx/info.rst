@@ -23,6 +23,21 @@ TA
   * netid for email: smoe
   * Office hours: TBA
 
+Office hours October 3 and 4
+----------------------------
+
+* On-campus: 
+
+  - Tuesday 10/4, 9-10am in Lewis 328 (LeVeque)
+  - Tuesday 10/4, 11-12am in Lewis 128 (Moe)
+
+* Online: (see 
+  `Canvas <https://canvas.uw.edu/courses/1062881/pages/gotomeeting>`_
+  for connection information)
+
+  - Monday 10/3, 6-7pm (Moe)
+  - Tuesday 10/4, 8-9am (Moe)
+
 Lectures
 ---------
 
