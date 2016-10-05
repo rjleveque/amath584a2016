@@ -13,7 +13,10 @@ Instructor
 
   * Office: Lewis 328
   * netid for email: rjl
-  * Office hours: TBA
+  * Office hours in Lewis 328: Monday 11:00am-12:00pm and Tuesday 4:00-5:00pm
+  * Office hours online: Monday 5:00-6:00pm and Tuesday 7:00-8:00am (Pacific)
+    (see `Canvas <https://canvas.uw.edu/courses/1062881/pages/gotomeeting>`_
+    for connection information)
 
 TA
 ---------------
@@ -21,22 +24,10 @@ TA
 * `Scott Moe <http://depts.washington.edu/amath/staff-members/scott-moe/>`_
 
   * netid for email: smoe
-  * Office hours: TBA
-
-Office hours October 3 and 4
-----------------------------
-
-* On-campus: 
-
-  - Tuesday 10/4, 9-10am in Lewis 328 (LeVeque)
-  - Tuesday 10/4, 11-12am in Lewis 128 (Moe)
-
-* Online: (see 
-  `Canvas <https://canvas.uw.edu/courses/1062881/pages/gotomeeting>`_
-  for connection information)
-
-  - Monday 10/3, 6-7pm (Moe)
-  - Tuesday 10/4, 8-9am (Moe)
+  * Office hours in Lewis 128: Monday 4:30-5:30pm and Friday 11:00am-12:00pm
+  * Office hours online: Monday 12:00-1:00pm and Friday 5:00-6:00pm (Pacific)
+    (see `Canvas <https://canvas.uw.edu/courses/1062881/pages/gotomeeting>`_
+    for connection information)
 
 Lectures
 ---------
