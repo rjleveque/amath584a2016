@@ -1,0 +1,191 @@
+
+\documentclass[10pt]{article}
+
+\usepackage{graphicx}
+\usepackage{amsmath,amsfonts,amssymb}
+
+\usepackage{hyperref}  % for urls and hyperlinks
+
+
+\setlength{\textwidth}{6.2in}
+\setlength{\oddsidemargin}{0.3in}
+\setlength{\evensidemargin}{0in}
+\setlength{\textheight}{8.9in}
+\setlength{\voffset}{-1in}
+\setlength{\headsep}{26pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+
+
+\input{../latex/macros.tex}
+
+
+\begin{document}
+
+% header:
+\hfill \vbox{
+\hbox{AMath 584 / Math 584}
+\hbox{Homework \#2}
+\hbox{Due 11:00pm PDT}
+\hbox{Tuesday, October 25, 2016}
+}
+
+
+\vskip 0.5cm
+
+{\bf Name:}   Your Name Here
+
+{\bf Netid:}  Your NetID Here
+
+\vskip 0.5cm
+
+%--------------------------------------------------------------------------
+\vskip 1cm
+\hrule
+{\bf Problem 1.}
+Find (by hand) both the reduced and full SVD of the matrix
+\[
+A = \bcm 0&3\\ 2&0\\ 0&4\ecm.
+\]
+Remember that things should be ordered so that $\sigma_1 \geq \sigma_2$.
+
+Use the SVD to determine the following:
+\begin{itemize} 
+\item The best rank-1 approximation to $A$.
+\item The 2-norm of $A$.
+\item A basis for the linear subspace $\{x \in \reals^2: 
+      \|Ax\|_2 = \|A\|_2 \|x\|_2\}$ and the dimension of this space.
+\item A basis for the orthogonal complement of the range of $A$.
+\item A basis for the null space of $A^T$.
+\end{itemize} 
+
+% uncomment the next two lines if you want to insert solution...
+%\vskip 1cm
+%{\bf Solution:}
+
+% insert your solution here!
+
+
+%--------------------------------------------------------------------------
+\vskip 1cm
+\hrule
+{\bf Problem 2.}
+Determine by hand the SVD of the matrix
+\[
+A = \bcm 17&1\\ 6&18\ecm.
+\]
+Hint: one right singular vector is 
+\[
+v_1 = \bcm 1/\sqrt{2}\\ 1/\sqrt{2} \ecm.
+\]
+ 
+
+% uncomment the next two lines if you want to insert solution...
+%\vskip 1cm
+%{\bf Solution:}
+
+% insert your solution here!
+
+
+%--------------------------------------------------------------------------
+\vskip 1cm
+\hrule
+{\bf Problem 3.}
+Exercise 6.1 in Trefethen and Bau.  In addition, 
+illustrate with a sketch showing the effect of $A = I-2P$ on a typical vector
+$v$ for the case
+\[
+P = \frac 1 5 \bcm 1&2\\2&4\ecm.
+\]
+Also explain why a matrix $A$ of this form is sometimes called a
+``reflector''.  {\bf Hint:} See also Figure 10.2 in the book and the
+discussion for the case of a ``Householder reflector''.
+
+
+% uncomment the next two lines if you want to insert solution...
+%\vskip 1cm
+%{\bf Solution:}
+
+% insert your solution here!
+
+%--------------------------------------------------------------------------
+\vskip 1cm
+\hrule
+{\bf Problem 4.}
+Exercise 6.3 in Trefethen and Bau.  Use the SVD to do this.
+
+
+% uncomment the next two lines if you want to insert solution...
+%\vskip 1cm
+%{\bf Solution:}
+
+% insert your solution here!
+
+
+%--------------------------------------------------------------------------
+\vskip 1cm
+\hrule
+{\bf Problem 5.}
+Exercise 6.4 in Trefethen and Bau.
+
+
+% uncomment the next two lines if you want to insert solution...
+%\vskip 1cm
+%{\bf Solution:}
+
+% insert your solution here!
+
+
+%--------------------------------------------------------------------------
+\vskip 1cm
+\hrule
+{\bf Problem 6.}
+Exercise 7.1 in Trefethen and Bau.
+
+
+% uncomment the next two lines if you want to insert solution...
+%\vskip 1cm
+%{\bf Solution:}
+
+% insert your solution here!
+
+%--------------------------------------------------------------------------
+\vskip 1cm
+\hrule
+{\bf Problem 7.}
+Exercise 7.2 in Trefethen and Bau.
+
+
+% uncomment the next two lines if you want to insert solution...
+%\vskip 1cm
+%{\bf Solution:}
+
+% insert your solution here!
+
+%--------------------------------------------------------------------------
+\vskip 1cm
+\hrule
+{\bf Problem 8.}
+Exercise 8.2 in Trefethen and Bau.  
+
+You can write a Python function instead of Matlab if you prefer.  
+
+Test your routine on the matrices from Exercise 6.4 of Trefethen and Bau  
+and submit your output.
+
+Test it on other matrices of different sizes to convince yourself it is
+working properly. You do not need to turn in more output, but submit the
+code in a file {\tt mgs.m} or {\tt mgs.py} in a way that we can test it on other
+matrices of our choosing.
+
+Please write readable code!
+
+
+% uncomment the next two lines if you want to insert solution...
+%\vskip 1cm
+%{\bf Solution:}
+
+% insert your solution here!
+
+\end{document}
+
