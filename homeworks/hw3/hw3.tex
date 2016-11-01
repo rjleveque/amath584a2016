@@ -139,7 +139,17 @@ In particular, what are the singluar values?
 {\bf Hint:} Write $I=UU^*$ where $U$ is as above and use the SVD of $qq^*$.
 
 \item Find an SVD of the reflector $I-2P$. What are the singular values?
-Think about the geometric interpretation of these values.
+%%% Removed --> Think about the geometric interpretation of these values.
+
+{\bf Modified:}{\em Recall that the singular values should be non-negative.}
+
+\item {\bf Added:}
+{\em Suppose you write a
+general vector $x$ as a linear combination of the columns of $U$, i.e., as 
+$x = c_1u_1 + c_2u_2 + \cdots + c_mu_m$ where $c_j = u_j^*x$.  
+In terms of a similar representation using the columns of $U$ as a basis, 
+what are the vectors $Px,~ (I-P)x$, and $(I-2P)x$.  Think about the geometric
+meaning of these.}
 
 \end{enumerate} 
 
@@ -264,6 +274,19 @@ smaller, and becomes particularly important when we add higher powers.
 
 {\bf (a)~} 
 Use Matlab or Python to compute the least squares fit. 
+
+{\bf Added to assignment:}
+{\em 
+Do this by computing the QR factorization (using the built-in {\tt qr}
+function) and then solving $Rc = Q^Ty$.  In Matlab you can solve this
+nonsingular linear system using the backslash operator, 
+{\tt c = R\textbackslash Q'*y}.
+
+(Note that in Matlab you can also solve a least square problem directly with
+the backslash operator,\\
+{\tt c = A\textbackslash b}, 
+and in Python the function {\tt numpy.linalg.lstsq(A,b)} can be used.  }
+
 Plot the fit as a red curve on the same plot. 
 
 To see the trend without the oscillation, take the coefficients
