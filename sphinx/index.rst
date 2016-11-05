@@ -10,6 +10,7 @@ AMath 584
    info
    syllabus
    homeworks
+   midterm
    dropbox
    software
    software_installation
