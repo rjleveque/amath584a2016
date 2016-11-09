@@ -23,9 +23,21 @@ The exam will cover roughly Lectures 1-15 in Trefethen and Bau.
  - Some extra office hours will be scheduled, but don't put off understanding this
    material to the last minute.
 
-**Some key concepts and algorithms that you should know:**
+**Office hours**
 
-*(Draft, might be modified!)*
+LeVeque will have office hours 
+
+ - in Lewis 328 
+
+    - Thursday 11/10, 2:30 - 3:30pm
+    - Tuesday 11/15,  5:00 - 6:00pm
+
+ - On GoToMeeting
+
+    - Sunday 11/13, 12:00 - 2:00pm PST
+    - Tuesday 11/15, 7:00 - 8:00am PST
+
+**Some key concepts and algorithms that you should know:**
 
  - Basic linear algebra concepts we have used, e.g. linear spaces, basis for a
    space, inner and outer products, orthogonality, vector and matrix norms.
