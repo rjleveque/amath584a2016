@@ -19,6 +19,7 @@ The exam will cover roughly Lectures 1-15 in Trefethen and Bau.
 
  - There will be no in-class lecture on Monday, November 14.  Instead a video
    lecture will be posted that will primarily review some of the key concepts.
+   See the `Canvas page <https://canvas.uw.edu/courses/1062881/external_tools/21130>`_
 
  - Some extra office hours will be scheduled, but don't put off understanding this
    material to the last minute.
