@@ -7,7 +7,7 @@
 Midterm Exam
 ===================
 
-The in-class Midterm exam will be on Wednesday November 16, 2:30 - 4:20pm.
+The in-class Midterm exam will be on Wednesday November 16, 2:30 - 3:20pm.
 
 The exam is closed book, closed notes.  No calculators.
 
