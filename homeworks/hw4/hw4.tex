@@ -1,0 +1,187 @@
+
+\documentclass[10pt]{article}
+
+\usepackage{graphicx}
+\usepackage{amsmath,amsfonts,amssymb}
+
+\usepackage{hyperref}  % for urls and hyperlinks
+
+
+\setlength{\textwidth}{6.2in}
+\setlength{\oddsidemargin}{0.3in}
+\setlength{\evensidemargin}{0in}
+\setlength{\textheight}{8.9in}
+\setlength{\voffset}{-1in}
+\setlength{\headsep}{26pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+
+
+\input{../latex/macros.tex}
+
+
+\begin{document}
+
+% header:
+\hfill \vbox{
+\hbox{AMath 584 / Math 584}
+\hbox{Homework \#4}
+\hbox{Due 11:00pm PDT}
+\hbox{Tuesday, November 29, 2016}
+}
+
+
+\vskip 0.5cm
+
+{\bf Name:}   Your Name Here
+
+{\bf Netid:}  Your NetID Here
+
+\vskip 0.5cm
+
+%--------------------------------------------------------------------------
+\vskip 1cm
+\hrule
+{\bf Problem 1.}
+
+Exercise 20.2 in the book.  Note that assuming the conditions of Exercise 20.1
+just means that it is valid to assume you can do Gaussian elimination without
+pivoting, which is assumed for this problem.  (Pivoting would change the sparsity
+pattern of the result.)
+
+% uncomment the next two lines if you want to insert solution...
+%\vskip 1cm
+%{\bf Solution:}
+
+% insert your solution here!
+
+%--------------------------------------------------------------------------
+\vskip 1cm
+\hrule
+{\bf Problem 2.}
+
+\begin{enumerate} 
+\item
+Consider the matrix 
+\[
+A = \brm 4&-1  &-1  &-1\\
+         1&-4  & 1  & 1\\
+         1& 1  &-4  & 1\\
+         1& 1.5& 1.5&-4\erm
+\]
+Apply one step of Gaussian elimination to introduce zeros in the first column.
+You do not need to pivot since $|a_{11}|$ is the maximum value in the first
+column.  What matrix $A_1$ do you obtain?
+
+\item
+Let $\tilde A_1$ be the $3\times 3$ submatrix in the lower right corner of $A_1$.
+This is the submatrix we work with in the next step of Gaussian elimination.  
+Note that again you do not need to pivot.
+
+Verify that both the original matrix $A$ and the matrix $\tilde A_1$ are {\em
+strictly column diagonally dominant} in the sense defined in Exercise 21.6 in the
+book (abbreviated SCDD below).
+
+\item Now do Exercise 21.6.   The above example is intended to help you think
+about how to approach this.  Show that in general if $A\in \complex^{m\times m}$ 
+is SCDD then so is the $(m-1) \times (m-1)$ submatrix obtained after one step of
+Gaussian elimination.  You can then apply induction.
+
+Note that when you apply elimination, the diagonal terms might decrease in
+magnitude while the off-diagonal terms might increase in magnitude.  But since we
+are only looking at a submatrix there is one fewer off-diagonal, and
+you can bound these decreases and increases
+(using the SCCD property of the original matrix) to obtain the bounds required to
+show that $\tilde A_1$ is SCCD.  You might want to play around with the example
+above to understand why this should work.
+
+\end{enumerate} 
+
+% uncomment the next two lines if you want to insert solution...
+%\vskip 1cm
+%{\bf Solution:}
+
+% insert your solution here!
+
+%--------------------------------------------------------------------------
+\vskip 1cm
+\hrule
+{\bf Problem 3.}
+
+\begin{enumerate}
+\item Suppose $A\in\complex^{m\times m}$ is nonsingular.  Show that $\|A^*A\|_2 =
+\|A\|_2^2$ and similarly for the inverse of this matrix.  Conclude that
+$\kappa_2(A^*A) = \kappa_2(A)^2$.
+
+\item Show that $A^*A$ is always hermitian positive definite, provided $A$ is
+nonsingular.   Is the same true if rank$(A) < m$?  Explain why or why not.
+
+\end{enumerate} 
+
+% uncomment the next two lines if you want to insert solution...
+%\vskip 1cm
+%{\bf Solution:}
+
+% insert your solution here!
+
+%--------------------------------------------------------------------------
+\vskip 1cm
+\hrule
+{\bf Problem 4.}
+
+Suppose $A\in\complex^{m\times m}$ is hermitian positive definite
+and $A=R^*R$ is its Cholesky factorization.  Show that $\|R\|_2 = \|R^*\|_2 =
+\|A\|_2^{1/2}$ by using the SVD of $R$.
+
+% uncomment the next two lines if you want to insert solution...
+%\vskip 1cm
+%{\bf Solution:}
+
+% insert your solution here!
+
+%--------------------------------------------------------------------------
+\vskip 1cm
+\hrule
+{\bf Problem 5.}
+
+Exercise 23.2.  
+
+{\bf Hints:}
+
+Note that the proof of Theorem 16.2 is suggested as a guide since
+it also involves combining different backward error analyses into a new result.
+In this exercise the point is to show that if we compute $\tilde R$ by a Cholesky
+decomposition (numerically) and then compute $\tilde y$ by solving $\tilde R^* y
+= b$ numerically and finally compute $\tilde x$ by solving $\tilde R x = \tilde y$
+numerically, then we can get the bound (23.6) showing that the final computed
+$\tilde x$ is the exact solution to a nearby problem.  
+
+Theorem 17.1 says that solving an upper triangular system by back substitution
+is backward stable and gives a result you will need to use.
+The same result holds for solving a lower triangular system by forward
+substitution, and you need to do both for this problem.  
+
+This means you can assume
+for example that $\tilde y$ satisfies exactly an equation of the form
+\[
+(\tilde R^* + \delta \tilde R^*)\tilde y = b
+\]
+and then $\tilde x$ satisfies an equation of the form
+\[
+(\tilde R + \delta \hat R)\tilde x = \tilde y
+\]
+where $\delta \tilde R$ and $\delta \hat R$ 
+are two different perturbations but both satisfying
+similar bounds.  Now combine things (using also Theorem 23.2 at this point)
+to obtain the desired bound, keeping in mind the result of Problem 4.
+
+
+% uncomment the next two lines if you want to insert solution...
+%\vskip 1cm
+%{\bf Solution:}
+
+% insert your solution here!
+
+
+\end{document}
+
