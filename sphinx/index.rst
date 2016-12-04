@@ -11,6 +11,7 @@ AMath 584
    syllabus
    homeworks
    midterm
+   final
    dropbox
    software
    software_installation
